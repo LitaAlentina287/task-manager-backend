@@ -38,10 +38,6 @@ Struktur tabel:
 * Memiliki kolom: id, title, description, is_completed, created_at
 * Struktur sesuai dengan yang ditentukan pada soal
 
-```md
-![Database Tasks Table](images/database-tasks-table.png)
-```
-
 ![Database Tasks Table](images/database-tasks-table.png)
 
 ---
@@ -58,10 +54,6 @@ Struktur tabel:
 * Server berhasil dijalankan tanpa error
 * Menampilkan pesan bahwa server aktif di port 3000
 
-```md
-![Server Running](images/server-running.png)
-```
-
 ![Server Running](images/server-running.png)
 
 ---
@@ -77,10 +69,6 @@ Struktur tabel:
 * Menampilkan seluruh data tugas dalam bentuk array JSON
 * Jika belum ada data, akan menampilkan array kosong `[]`
 
-```md
-![GET All Tasks](images/get-all-tasks.png)
-```
-
 ![GET All Tasks](images/get-all-tasks.png)
 
 ---
@@ -95,10 +83,6 @@ Struktur tabel:
 
 * Menampilkan 1 data tugas sesuai ID
 * Jika ID tidak ditemukan, akan menampilkan error 404
-
-```md
-![GET Task By ID](images/get-task-by-id.png)
-```
 
 ![GET Task By ID](images/get-task-by-id.png)
 
@@ -117,9 +101,7 @@ Struktur tabel:
 * Response menampilkan data yang baru dibuat
 * Memiliki ID otomatis dari database
 
-```md
 ![POST Task Request](images/post-task-request.png)
-```
 
 ---
 
@@ -135,13 +117,7 @@ Struktur tabel:
 * Data tugas berhasil diperbarui
 * Perubahan terlihat pada field seperti title, description, atau is_completed
 
-```md
 ![PUT Task Request](images/put-task-request.png)
-![PUT Task Response](images/put-task-response.png)
-```
-
-![PUT Task Request](images/put-task-request.png)
-![PUT Task Response](images/put-task-response.png)
 
 ---
 
@@ -155,10 +131,6 @@ Struktur tabel:
 
 * Data berhasil dihapus dari database
 * Response menampilkan pesan konfirmasi penghapusan
-
-```md
-![DELETE Task](images/delete-task-response.png)
-```
 
 ![DELETE Task](images/delete-task-response.png)
 
@@ -176,10 +148,6 @@ Struktur tabel:
 * Sistem menolak input yang tidak valid
 * Menampilkan status 400 dengan pesan error yang sesuai
 
-```md
-![Error 400 Validation](images/error-400-validation.png)
-```
-
 ![Error 400 Validation](images/error-400-validation.png)
 
 ---
@@ -195,10 +163,6 @@ Struktur tabel:
 
 * Sistem mendeteksi data tidak ditemukan
 * Menampilkan status 404 dengan pesan error
-
-```md
-![Error 404 Not Found](images/error-404-not-found.png)
-```
 
 ![Error 404 Not Found](images/error-404-not-found.png)
 
@@ -219,10 +183,6 @@ Struktur tabel:
 * Setiap request tercatat di console
 * Menampilkan method, URL, dan waktu akses
 * Contoh: GET /tasks - 2026-04-23T10:00:00
-
-```md
-![Logging Middleware](images/logging-middleware.png)
-```
 
 ![Logging Middleware](images/logging-middleware.png)
 
