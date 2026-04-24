@@ -34,9 +34,9 @@ Struktur tabel:
 
 Output yang diharapkan:
 
-Tabel tasks berhasil dibuat
-Memiliki kolom: id, title, description, is_completed, created_at
-Struktur sesuai dengan yang ditentukan pada soal
+- Tabel tasks berhasil dibuat
+- Memiliki kolom: id, title, description, is_completed, created_at
+- Struktur sesuai dengan yang ditentukan pada soal
 
 ![Database Tasks Table](images/database-tasks-table.png)
 
