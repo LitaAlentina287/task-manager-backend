@@ -119,10 +119,7 @@ Struktur tabel:
 
 ```md
 ![POST Task Request](images/post-task-request.png)
-![POST Task Response](images/post-task-response.png)
 ```
-
-![POST Task Request](images/post-task-request.png)
 
 ---
 
