@@ -246,10 +246,10 @@ http://localhost:3000
 
 ## 👩‍💻 Informasi
 
-Nama: Lita Alentina
-Program Studi: Teknik Informatika
-Universitas: Universitas Teknologi Bandung
-Tahun: 2026
+- Nama: Lita Alentina
+- Program Studi: Teknik Informatika
+- Universitas: Universitas Teknologi Bandung
+- Tahun: 2026
 
 ---
 
