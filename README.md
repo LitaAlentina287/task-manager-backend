@@ -212,13 +212,23 @@ Menggunakan nodemon agar server otomatis restart saat terjadi perubahan kode.
 
 ---
 
+## 🛠️ Tech Stack
+
+- **Node.js** – Runtime JavaScript untuk backend
+- **Express.js** – Framework backend REST API
+- **PostgreSQL** – Database relasional
+- **pg (node-postgres)** – Koneksi Node.js ke PostgreSQL
+- **Nodemon** – Auto-restart server saat development
+
+---
+
 ## 🔗 Daftar Endpoint API
 
-* GET /tasks
-* GET /tasks/:id
-* POST /tasks
-* PUT /tasks/:id
-* DELETE /tasks/:id
+- `GET /tasks` → Mengambil semua data task
+- `GET /tasks/:id` → Mengambil 1 task berdasarkan ID
+- `POST /tasks` → Menambah task baru
+- `PUT /tasks/:id` → Mengupdate data task
+- `DELETE /tasks/:id` → Menghapus task
 
 ---
 
@@ -247,7 +257,8 @@ http://localhost:3000
 ## 👩‍💻 Informasi
 
 - Nama: Lita Alentina
-- Program Studi: Teknik Informatika
+- NIM: 23552011097
+- Kelas: TIF K 23B
 - Universitas: Universitas Teknologi Bandung
 - Tahun: 2026
 
