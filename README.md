@@ -182,7 +182,7 @@ Struktur tabel:
 
 * Setiap request tercatat di console
 * Menampilkan method, URL, dan waktu akses
-* Contoh: GET /tasks - 2026-04-23T10:00:00
+* Contoh: GET /tasks - Sat Apr 25 2026 17:24:16 GMT+0700 (Western Indonesia Time)
 
 ![Logging Middleware](images/logging-middleware.png)
 
